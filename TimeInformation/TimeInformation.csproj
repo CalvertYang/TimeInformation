@@ -167,7 +167,6 @@
       <DependentUpon>bootstrap.less</DependentUpon>
     </Content>
     <Content Include="Content\less\datepicker.less" />
-    <Content Include="App_Data\StationList.json" />
     <None Include="App_Data\TaiTrainInfo.xsd">
       <SubType>Designer</SubType>
     </None>
@@ -182,7 +181,7 @@
     <Compile Include="Models\TaiTrainInfo.cs" />
     <Compile Include="Models\TimeTable.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Content Include="Scripts\stations.json" />
+    <None Include="Json\stations.json" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\FilterConfig.cs" />
